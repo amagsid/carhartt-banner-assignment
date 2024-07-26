@@ -11,7 +11,6 @@ html {
 
 body {
     background-color: rgb(245, 245, 245);
-    /* background-color: yellow; */
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -158,34 +157,9 @@ h3 {
     .banner__cat-button {
         padding: 20px;
         height: 55px;
-        width: 155px;
+        width: 160px;
         font-size: 0.9rem;
     }
-    /* h3 {
-        font-size: 2rem;
-    }
-    .banner {
-        padding: 20px;
-        margin: 0;
-        height: 35vw;
-        border-radius: 0;
-        background-size: cover;
-        background-position: right;
-    }
-    .banner p {
-        font-size: 0.8rem;
-    }
-
-    .banner__cat-button {
-        padding: 15px;
-        height: 40px;
-        width: 110px;
-        font-size: 0.6rem;
-    }
-
-    main {
-        width: 100%;
-    } */
 }
 
 /* Media query for devices with width between 769px and 1440px */

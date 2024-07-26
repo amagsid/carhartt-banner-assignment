@@ -1,14 +1,21 @@
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="banner-images/carhartt-logo.jpg" alt="Logo" width="80" height="80">
-  </a>
+    <img src="banner-images/carhartt-logo.jpg" alt="Logo" width="180" height="80">
 
-<h3 align="center">Carhartt Rotating Images Banner Assignment</h3>
+<h3 >Carhartt Rotating Images Banner Assignment</h3>
+
+<a href="https://amagsid.github.io/carhartt-banner-assignment/">Live Demo</a>
+
+## Getting Started
+
+1. Clone the project
+2. Host it using the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Liver Server VScode plugin</a>
+
+</div>
 
 ## Task:
 
--   Rotate banner every 2 seconds
--   Media queries: 425px, 768px (mobile), and 1440px (desktop).
+-   Create a rotating banner every 2 seconds
+-   Media queries: 425px, 768px, and 1440px (desktop).
 
 ### Approach 1:
 
@@ -20,19 +27,21 @@ having an array of images (image URLs), targeting one div and havin a function t
 
 ## steps taken:
 
-1.  worked on HTML structure from approach #1 and restructired it according to the new functionality (ex. 1 div instead of 3 different divs for banner)
+1. initially tried approach #1 but I realized I can build the functionality in a smarter way, rather than having 3 different banners and having them appearing and disappearing by applying CSS classes.
 
-2.  edited CSS to represent the banner
+2. Worked on HTML structure following approach #2 and built it according to the new functionality (ex. 1 div with a background images that toggle and rotate, instead of 3 different divs for banner)
 
-3.  tested functionality of toggling background using background colors as a start
+3. Worked on CSS to mimic the viduals of the banner from the Figma board.
 
-4.  imported images to use
+4. Tested functionality of toggling background using background colors as a start.
 
-5.  through testing, I found the images would need further adjustment so I came to the conclusion to use 2 different sets if images, for mobile and desktop
+5. imported images to use
+
+6. through testing, I found the images would need further adjustment so I came to the conclusion to use 2 different sets if images, for mobile and desktop
+
+7. Refined CSS and worked on transitions
 
 ## Things I would have approached differently if I had more time:
 
--   have the gradient on the banner image created in CSS (originally had it in css) rather than having it on the image used in resources instead
--   have 1 set of images rather than having 2 sets for different screen sizes and work on making the building blocks of the image (vector shape, gradient, image) fully reesponsive. Possibly by impleenting background-position CSS value
-
-</div>
+-   Have the gradient on the banner image created in CSS (originally had it in css) rather than having it on the image used in resources instead
+-   Have 1 set of images rather than having 2 sets for different screen sizes and work on making the building blocks of the image (vector shape, gradient, image) fully reesponsive. Possibly by impleenting background-position CSS value
