@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 300px;
     overflow: hidden;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .banner-slide {
