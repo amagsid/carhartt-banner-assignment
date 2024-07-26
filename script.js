@@ -1,1 +1,4 @@
-console.log('new script');
+document.addEventListener('DOMContentLoaded', function () {
+    const backgroundElement = document.getElementById('banner-slide');
+    console.log(backgroundElement);
+});
