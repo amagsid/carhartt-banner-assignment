@@ -1,5 +1,6 @@
 Task:
-rotate banner every 2 seconds
+- Rotate banner every 2 seconds
+-three media queries: 425px, 768px (mobile), and 1440px (desktop).
 
 
 Approach 1:
@@ -17,4 +18,14 @@ steps taken:
 2. edited CSS to represent the banner
 
 3. tested functionality of toggling background using background colors as a start
+
+4. imported images to use
+
+5. through testing, I found the images would need further adjustment so I came to the conclusion to use 2 different sets if images, for mobile and desktop
+
+
+Things I would have approached differently if I had more time:
+
+- have the gradient on the banner image created in CSS (originally had it in css) rather than having it on the image used in resources instead 
+- have 1 set of images rather than having 2 sets for different screen sizes and work on making the building blocks of the image (vector shape, gradient, image) fully reesponsive. Possibly by impleenting background-position CSS value 
 

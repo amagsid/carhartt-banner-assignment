@@ -11,9 +11,22 @@ html {
 
 body {
     background-color: rgb(245, 245, 245);
+    /* background-color: yellow; */
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin: unset;
+    font-weight: 100;
 }
 
 nav {
@@ -32,23 +45,29 @@ nav {
 .banner {
     margin: 0 auto;
     width: 80vw;
-    height: 50vh;
+    height: 55vh;
     padding: 40px 60px;
-    border-radius: 40px;
-    transition: all 1s ease-in-out;
+    /* transition: all 0.3s, ease-in; */
     background-blend-mode: normal, normal, multiply, normal;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 40px 40px 0px 40px;
 
     /* layout */
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    gap: 30px;
 }
 
 .banner__text {
     color: white;
+    display: flex;
+    flex-direction: column;
+}
+.banner__text p {
+    font-weight: 100;
 }
 
 .banner__cat {
@@ -61,43 +80,110 @@ nav {
     background-color: var(--primary-gold);
     border-radius: 5px;
     padding: 20px 20px;
-    height: 54px;
-    width: 180px;
+    height: 50px;
+    width: 160px;
     border: none;
+    font-size: 0.9rem;
     appearance: none;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 h3 {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 0;
     line-height: 90%;
 }
 
 /* Media Queries */
+/* devices with width up to 425px */
 @media (max-width: 425px) {
-    .banner-container {
-        height: 150px;
+    body {
+        background-color: yellow;
+        overflow-x: hidden;
     }
+    h3 {
+        font-size: 3rem;
+    }
+    .banner {
+        padding: 20px;
+        margin: 0;
+        border-radius: 0;
+        width: 100vw;
+        justify-content: flex-end;
+        height: 60vh;
+        background-size: cover;
+    }
+
+    .banner__cat {
+        align-self: center;
+    }
+    .banner__cat-button {
+        padding: 20px;
+        height: 54px;
+        width: 140px;
+        font-size: 0.7rem;
+    }
+    /* 
+    main {
+        display: unset;
+    } */
 }
 
+/* Media query for devices with width between 426px and 768px */
 @media (min-width: 426px) and (max-width: 768px) {
-    .banner-container {
-        height: 200px;
+    body {
+        background-color: green;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .banner {
+        padding: 20px;
+        margin: 0;
+        height: 35vw;
+        border-radius: 0;
+        background-size: cover;
+        background-position: right;
+    }
+    .banner p {
+        font-size: 0.8rem;
+    }
+
+    .banner__cat-button {
+        padding: 15px;
+        height: 40px;
+        width: 110px;
+        font-size: 0.6rem;
+    }
+
+    main {
+        width: 100%;
     }
 }
 
+/* Media query for devices with width between 769px and 1440px */
 @media (min-width: 769px) and (max-width: 1440px) {
-    .banner-container {
-        height: 300px;
+    body {
+        background-color: purple;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .banner {
+        height: 40vh;
+        background-size: cover;
+        background-position: right;
     }
 }
 
+/* Media query for devices with width 1441px and above */
 @media (min-width: 1441px) {
-    .banner-container {
-        height: 400px;
+    body {
+        background-color: gray;
     }
 }
