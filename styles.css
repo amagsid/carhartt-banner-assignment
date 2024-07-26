@@ -36,13 +36,6 @@ nav {
     padding: 40px 60px;
     border-radius: 40px;
     transition: all 1s ease-in-out;
-    background: linear-gradient(
-            270deg,
-            rgba(102, 49, 16, 0) 50%,
-            #3d3631 93.96%
-        ),
-        linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 50%),
-        url(<path-to-image>) lightgray 81.5px -62px / 80.382% 154.333% no-repeat;
     background-blend-mode: normal, normal, multiply, normal;
 
     /* layout */
@@ -50,6 +43,8 @@ nav {
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .banner__text {
