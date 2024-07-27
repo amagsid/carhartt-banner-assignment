@@ -35,7 +35,7 @@ Having an array of images (image URLs), targeting one div and havin a function t
 
 4. Tested functionality of toggling background using background colors as a start.
 
- <img src="banner-images/carhartt-logo.jpg" alt="Logo" width="230" height="80">
+ <img src="assets/preview.gif"  align="center" alt="Logo" width="800" height="245">
 
 5. imported images to use
 
@@ -46,8 +46,10 @@ Having an array of images (image URLs), targeting one div and havin a function t
 ## Things I would have approached differently if I had more time:
 
 -   Have the gradient on the banner image created in CSS (originally had it in css) rather than having it on the image used in resources instead
--   Have 1 set of images rather than having 2 sets for different screen sizes and work on making the building blocks of the image (vector shape, gradient, image) fully reesponsive. Possibly by impleenting background-position CSS value
--   Build more elements and components on the page
--   Modularized CSS into seperate files
+-   Have 1 set of images rather than having 2 sets for different screen sizes and work on making the building blocks of the image (vector shape, gradient, image) fully reesponsive. Possibly by impleenting background-position CSS value.
+-   Have more breakpoints.
+-   Build more elements and components on the page.
+-   Modularized CSS into seperate files.
+-   I would have liked and enjoyed to take on this assignment using Tailwind CSS for styling. I reaized how powerful it is when I compared the time styling took me in comparison with other personal projects I worked on.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
