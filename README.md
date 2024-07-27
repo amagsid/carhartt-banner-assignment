@@ -1,16 +1,16 @@
 <div align="center">
-    <img src="banner-images/carhartt-logo.jpg" alt="Logo" width="180" height="80">
+    <img src="banner-images/carhartt-logo.jpg" alt="Logo" width="230" height="80">
 
 <h3 >Carhartt Rotating Images Banner Assignment</h3>
 
 <a href="https://amagsid.github.io/carhartt-banner-assignment/">Live Demo</a>
 
+</div>
+
 ## Getting Started
 
 1. Clone the project
 2. Host it using the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Liver Server VScode plugin</a>
-
-</div>
 
 ## Task:
 
@@ -19,21 +19,23 @@
 
 ### Approach 1:
 
-have 3 divs each with an inline style for a different backbround image that are targeted by class and toggle an "active" class to show/hide
+Have 3 divs each with an inline style for a different backbround image that are targeted by class and toggle an "active" class to show/hide
 
 ### Approach 2 (applied):
 
-having an array of images (image URLs), targeting one div and havin a function that changes the background image using JS, then hooking up this function in a setInterval function
+Having an array of images (image URLs), targeting one div and havin a function that changes the background image using JS, then hooking up this function in a setInterval function
 
 ## steps taken:
 
-1. initially tried approach #1 but I realized I can build the functionality in a smarter way, rather than having 3 different banners and having them appearing and disappearing by applying CSS classes.
+1. Initially tried approach #1 but I realized I can build the functionality in a smarter way, rather than having 3 different banners and having them appearing and disappearing by applying CSS classes.
 
 2. Worked on HTML structure following approach #2 and built it according to the new functionality (ex. 1 div with a background images that toggle and rotate, instead of 3 different divs for banner)
 
-3. Worked on CSS to mimic the viduals of the banner from the Figma board.
+3. Worked on CSS to mimic the visuals of the banner from the Figma board.
 
 4. Tested functionality of toggling background using background colors as a start.
+
+ <img src="banner-images/carhartt-logo.jpg" alt="Logo" width="230" height="80">
 
 5. imported images to use
 
@@ -45,3 +47,7 @@ having an array of images (image URLs), targeting one div and havin a function t
 
 -   Have the gradient on the banner image created in CSS (originally had it in css) rather than having it on the image used in resources instead
 -   Have 1 set of images rather than having 2 sets for different screen sizes and work on making the building blocks of the image (vector shape, gradient, image) fully reesponsive. Possibly by impleenting background-position CSS value
+-   Build more elements and components on the page
+-   Modularized CSS into seperate files
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

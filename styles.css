@@ -10,7 +10,8 @@ html {
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: white;
+
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -29,23 +30,23 @@ p {
 }
 
 nav {
-    height: 15vh;
     border-bottom: 0.5px solid gray;
-    margin-bottom: 20px;
     text-align: center;
     display: flex;
     font-weight: 100;
-    font-style: italic;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     box-shadow: 0px 5px 10px rgb(202, 202, 202);
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
 }
 
 .banner {
     margin: 0 auto;
     width: 80vw;
     height: 55vh;
-    padding: 40px 60px;
+    padding: 40px;
     background-blend-mode: normal, normal, multiply, normal;
     background-size: contain;
     background-repeat: no-repeat;
@@ -96,19 +97,75 @@ h3 {
     font-size: 4rem;
     margin: 0;
     line-height: 90%;
-    text-transform: uppercase;
+}
+
+/* nav bar styling */
+
+.nav__bottom__mobile {
+    display: none;
+}
+.nav__top--mobile-text {
+    display: none;
+}
+
+.nav__bottom__desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px;
+}
+
+.nav__bottom {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    width: 800px;
+}
+
+.icons-container {
+    display: flex;
+    gap: 20px;
+}
+
+.nav__top--desktop-text {
+    background-color: black;
+    color: var(--primary-gold);
+    padding: 10px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.nav__bottom,
+.nav__top {
+    width: 100%;
+}
+
+li {
+    font-weight: 400;
+}
+
+.nav__middle {
+    display: none;
 }
 
 /* Media Queries */
 /* devices with width up to 425px */
 @media (max-width: 425px) {
-    body {
+    /* body {
         background-color: yellow;
         overflow-x: hidden;
-    }
+    } */
     h3 {
         font-size: 3rem;
     }
+
     .banner {
         padding: 20px;
         margin: 0;
@@ -129,13 +186,66 @@ h3 {
         width: 140px;
         font-size: 0.7rem;
     }
+
+    /* mobile-specefic-nav-styling */
+
+    nav {
+        height: 10vh;
+    }
+    .nav__bottom,
+    .nav__top {
+        background-color: black;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40%;
+    }
+
+    .nav__middle {
+        width: 100%;
+        justify-content: space-between;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .nav__top--mobile-text {
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .nav__bottom__mobile,
+    .nav__top--mobile-text {
+        background-color: black;
+        font-size: 0.6rem;
+        display: block;
+        padding: 0;
+        margin: 0;
+        letter-spacing: 0.5px;
+        color: var(--primary-gold);
+    }
+    .nav__bottom__mobile span {
+        font-weight: 100;
+    }
+    .nav__bottom__desktop,
+    .nav__top--desktop-text {
+        display: none;
+    }
+
+    .nav__middle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        height: 30%;
+    }
 }
 
 /* Media query for devices with width between 426px and 768px */
 @media (min-width: 426px) and (max-width: 768px) {
-    body {
+    /* body {
         background-color: green;
-    }
+    } */
 
     h3 {
         font-size: 4rem;
@@ -160,13 +270,23 @@ h3 {
         width: 160px;
         font-size: 0.9rem;
     }
+    ul {
+        display: none;
+    }
+    .nav__top--desktop-text {
+        font-size: 0.6rem;
+    }
+
+    .nav__bottom__desktop {
+        justify-content: space-between;
+    }
 }
 
 /* Media query for devices with width between 769px and 1440px */
 @media (min-width: 769px) and (max-width: 1440px) {
-    body {
+    /* body {
         background-color: purple;
-    }
+    } */
     h3 {
         font-size: 2.8rem;
     }
@@ -176,11 +296,20 @@ h3 {
         background-size: cover;
         background-position: right;
     }
+
+    ul {
+        font-size: 0.1;
+        width: 600px;
+    }
+
+    li {
+        font-size: 0.8rem;
+    }
 }
 
 /* Media query for devices with width 1441px and above */
 @media (min-width: 1441px) {
-    body {
+    /* body {
         background-color: gray;
-    }
+    } */
 }

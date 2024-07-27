@@ -12,20 +12,20 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     const images = [
-        'url(banner-images/image-1.png)',
-        'url(banner-images/image-2.png)',
-        'url(banner-images/image-3.png)',
-        'url(banner-images/image-4.png)',
-        'url(banner-images/image-5.png)',
-        'url(banner-images/image-6.png)',
+        'url(assets/banner-images/image-1.png)',
+        'url(assets/banner-images/image-2.png)',
+        'url(assets/banner-images/image-3.png)',
+        'url(assets/banner-images/image-4.png)',
+        'url(assets/banner-images/image-5.png)',
+        'url(assets/banner-images/image-6.png)',
     ];
     const mobileImages = [
-        'url(banner-images/mobile-image-1.png)',
-        'url(banner-images/mobile-image-2.png)',
-        'url(banner-images/mobile-image-3.png)',
-        'url(banner-images/mobile-image-4.png)',
-        'url(banner-images/mobile-image-5.png)',
-        'url(banner-images/mobile-image-6.png)',
+        'url(assets/banner-images/mobile-image-1.png)',
+        'url(assets/banner-images/mobile-image-2.png)',
+        'url(assets/banner-images/mobile-image-3.png)',
+        'url(assets/banner-images/mobile-image-4.png)',
+        'url(assets/banner-images/mobile-image-5.png)',
+        'url(assets/banner-images/mobile-image-6.png)',
     ];
 
     // detecting viewport width to change array of images shown in banner
