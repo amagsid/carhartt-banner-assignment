@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="banner-images/carhartt-logo.jpg" alt="Logo" width="230" height="80">
+    <img src="assets/logos/carhartt-logo.jpg" alt="Logo" width="230" height="80">
 
 <h3 >Carhartt Rotating Images Banner Assignment</h3>
 
@@ -35,7 +35,7 @@ Having an array of images (image URLs), targeting one div and havin a function t
 
 4. Tested functionality of toggling background using background colors as a start.
 
- <img src="assets/preview.gif"  align="center" alt="Logo" width="800" height="245">
+ <img src="assets/preview.gif"  align="center" alt="Logo" width="600">
 
 5. imported images to use
 
