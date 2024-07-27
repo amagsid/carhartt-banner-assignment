@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" id="#readme-top">
     <img src="assets/logos/carhartt-logo.jpg" alt="Logo" width="300" alt="cahartt logo">
 
 <h3 >Carhartt Rotating Images Banner Assignment</h3>
