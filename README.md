@@ -1,4 +1,4 @@
-<div align="center" id="#readme-top">
+<div align="center" id="readme-top">
     <img src="assets/logos/carhartt-logo.jpg" alt="Logo" width="300" alt="cahartt logo">
 
 <h3 >Carhartt Rotating Images Banner Assignment</h3>
@@ -52,4 +52,4 @@ Having an array of images (image URLs), targeting one div and havin a function t
 -   Modularized CSS into seperate files.
 -   I would have liked and enjoyed to take on this assignment using Tailwind CSS for styling. I reaized how powerful it is when I compared the time styling took me in comparison with other personal projects I worked on.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a href="#readme-top"> <p align="right">back to top </p> </a>
