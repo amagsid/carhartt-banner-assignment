@@ -52,4 +52,4 @@ Having an array of images (image URLs), targeting one div and havin a function t
 -   Modularized CSS into seperate files.
 -   I would have liked and enjoyed to take on this assignment using Tailwind CSS for styling. I reaized how powerful it is when I compared the time styling took me in comparison with other personal projects I worked on.
 
-<a href="#readme-top"> <p align="right">back to top </p> </a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
